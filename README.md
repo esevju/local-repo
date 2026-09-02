@@ -1,8 +1,8 @@
 # IT Study Documentation Repository
 
-This repository is a comprehensive documentation and study hub for learning core IT infrastructure, systems, and security topics. It combines study notes, assignments, and reference materials organized by topic.
+This repository is a comprehensive documentation and study hub for learning core IT infrastructure, systems, and security topics. It combines study notes, assignments, and reference materials organized by topic in both English and Norwegian.
 
-## Repository Purpose
+## 🎯 Repository Purpose
 
 Study and document the following IT domains:
 
@@ -14,101 +14,333 @@ Study and document the following IT domains:
 6. **Linux** – Server and client OS, command line, and system administration
 7. **IT Security** – Threats, controls, compliance, and security best practices
 
-## Repository Structure
+---
+
+## 📁 Repository Structure
 
 ```
-docs/
-├── ms365-basics/          # Microsoft 365 study materials
-├── computer-hardware/     # Hardware and architecture topics
-├── networking/            # Networking fundamentals and design
-├── windows-client/        # Windows client OS and management
-├── windows-server/        # Windows Server, Active Directory, and services
-├── linux/                 # Linux systems and administration
-├── it-security/           # Security concepts and practices
-├── assignments/           # Assignment work and projects
-│   ├── word-assignment/   # Main Word-based assignment
-│   └── templates/         # Assignment and note templates
-└── templates/             # General study templates
-apps-local/               # Local applications and project files
+local-repo/
+├── README.md                          # This file - overview and navigation
+├── BILINGUAL_STRUCTURE.md             # Bilingual language setup documentation
+├── .gitignore                         # Git ignore patterns
+│
+├── docs/                              # ENGLISH documentation
+│   ├── README.md                      # English documentation overview
+│   ├── ms365-basics/                  # Microsoft 365 study materials
+│   ├── computer-hardware/             # Hardware and architecture topics
+│   ├── networking/                    # Networking fundamentals and design
+│   ├── windows-client/                # Windows client OS and management
+│   ├── windows-server/                # Windows Server, Active Directory, and services
+│   ├── linux/                         # Linux systems and administration
+│   ├── it-security/                   # Security concepts and practices
+│   ├── assignments/                   # Assignment work and projects
+│   │   ├── word-assignment/           # Main enterprise IT infrastructure assignment
+│   │   │   ├── ASSIGNMENT_OUTLINE.md  # Detailed assignment outline
+│   │   │   └── INDEX.md               # Assignment navigation and structure
+│   │   ├── REFERENCES_AND_GUIDELINES.md
+│   │   └── templates/                 # Assignment-specific templates
+│   ├── templates/                     # General study templates and guides
+│   ├── arbeidskrav-test-2/            # Assignment testing/development (Test 1)
+│   └── arbeidskrav-test-3/            # Assignment testing/development (Test 2)
+│
+├── docs-nor/                          # NORWEGIAN documentation (Bokmål)
+│   ├── README.md                      # Norwegian documentation overview
+│   ├── ms365-basics/                  # Microsoft 365 studiemateriale
+│   ├── computer-hardware/             # Datamaskinhardware og arkitektur
+│   ├── networking/                    # Nettverksfundamentaler og design
+│   ├── windows-client/                # Windows-klient OS og administrasjon
+│   ├── windows-server/                # Windows Server, Active Directory og tjenester
+│   ├── linux/                         # Linux-systemer og administrasjon
+│   ├── it-security/                   # Sikkerhetskonsepter og praksis
+│   ├── assignments/                   # Oppgaver og prosjekter
+│   │   ├── word-assignment/           # Main bedrifts-IT infrastrukturoppgave
+│   │   ├── REFERENCES_AND_GUIDELINES.md
+│   │   └── templates/                 # Oppgavespesifikke maler
+│   └── templates/                     # Generelle studiemaler og veiledninger
+│
+├── timeplan/                          # Study schedule and calendar
+│   ├── Skjermbilde 2026-09-02 121529.png  # Screenshot of schedule
+│   └── TIMEPLAN.md                    # Study schedule as markdown
+│
+└── apps-local/                        # Local applications, scripts, and tools
+    ├── README.md                      # Apps folder documentation
+    └── [project folders]              # Various utility projects
 ```
-
-## Study Topics by Domain
-
-### Infrastructure & Platforms
-- Computer Hardware fundamentals
-- Networking design and protocols
-- Windows Client deployment and management
-- Windows Server and Active Directory
-- Linux systems administration
-- Microsoft 365 cloud services
-
-### Enterprise Management
-- Active Directory and organizational structure
-- User and group management
-- Policy and compliance
-- Storage and backup
-- Server and client management
-
-### Security
-- Physical security
-- Software security and patching
-- Network security
-- Web application security
-- Access control and authentication
-- Incident response and management
-
-## Getting Started
-
-1. **For study notes:** Navigate to the topic folder that interests you and use the templates in `docs/templates/` or `docs/assignments/templates/`
-2. **For assignments:** Work in `docs/assignments/word-assignment/` using the provided structure and outline
-3. **For reference:** Check README files in each topic folder for overviews and key concepts
-
-## Assignment Structure
-
-The main assignment is organized around enterprise IT infrastructure design and management, with sections covering:
-
-- **Network & Design** – Infrastructure architecture and network planning
-- **Active Directory & Identity** – Organizational Units, Groups, Users, Accounts
-- **Storage & Policies** – Storage management, Password Policies, Security Policies
-- **Security Layers** – Physical, Software, and Web security
-- **Solution & Operations** – Servers, Clients, and Management
-
-## Study Methodology
-
-1. **Read & Understand** – Study the topic overview and key concepts
-2. **Take Notes** – Summarize in your own words using the templates
-3. **Practice & Apply** – Complete exercises and hands-on labs
-4. **Review & Summarize** – Create topic summaries and review key takeaways
-5. **Document & Share** – Add your findings to the assignment or study notes
-
-## Templates Available
-
-- `docs/templates/study-note-template.md` – For individual topic notes
-- `docs/templates/topic-summary-template.md` – For topic overviews
-- `docs/assignments/templates/assignment-section-template.md` – For assignment sections
-- `docs/assignments/templates/research-template.md` – For research and deep dives
-
-## Assignment Document Structure
-
-The assignment document covers IT infrastructure design and implementation across:
-
-1. **Network Design** – How to plan and design network infrastructure
-2. **Hardware** – Component selection and specifications
-3. **Organizational Units & Groups** – Active Directory structure
-4. **User & Account Management** – Identity and access control
-5. **Storage** – Data storage and management
-6. **Policies** – Password, security, and compliance policies
-7. **Security** – Physical, software, and web security implementation
-8. **Solution & Management** – Deploying and managing servers and clients
-
-## Notes
-
-- Add new topics as you learn
-- Update study notes regularly
-- Use the assignment as your main deliverable for comprehensive understanding
-- Link between related topics where applicable
-- Keep templates consistent across all work
 
 ---
 
-**Study Repository** | Last updated: 2026-09-02 | Focus: IT Infrastructure & Security
+## 🚀 Quick Start Guide
+
+### Choose Your Language
+
+**English Learners:** Start here
+```bash
+cd docs
+cat README.md
+```
+
+**Norwegian Learners:** Start here
+```bash
+cd docs-nor
+cat README.md
+```
+
+---
+
+## 📚 Learning Paths
+
+### Path 1: Topic-by-Topic Study
+1. Pick a topic that interests you (e.g., `networking/`, `windows-server/`)
+2. Read the README in that folder
+3. Use `docs/templates/study-note-template.md` to create detailed notes
+4. Create a summary using `docs/templates/topic-summary-template.md`
+5. Reference your notes in assignment work
+
+### Path 2: Comprehensive Assignment Approach
+1. Start with `docs/assignments/REFERENCES_AND_GUIDELINES.md`
+2. Review `docs/assignments/word-assignment/ASSIGNMENT_OUTLINE.md`
+3. Research topics as needed using `docs/templates/`
+4. Write assignment sections using `docs/assignments/templates/assignment-section-template.md`
+5. Cross-reference study materials from topic folders
+
+### Path 3: Quick Reference Study
+1. Use topic summaries from each folder
+2. Create quick summaries using `docs/templates/topic-summary-template.md`
+3. Build a personal knowledge base
+4. Apply learning to practical scenarios
+
+---
+
+## 📖 Study Topics by Domain
+
+### Infrastructure & Platforms
+- **Computer Hardware** – Components, specifications, and architecture
+- **Networking** – Protocols, design, and connectivity
+- **Windows Client** – Desktop OS deployment and management
+- **Windows Server** – Server OS, AD, and enterprise services
+- **Linux** – Server administration and command line
+- **Microsoft 365** – Cloud productivity and collaboration
+
+### Enterprise Management
+- Active Directory and organizational structure
+- User, group, and account management
+- Policy implementation and compliance
+- Storage management and backup
+- Server and client management at scale
+
+### Security
+- Physical security measures
+- Software security and patch management
+- Network security and firewalls
+- Web application security
+- Access control and authentication systems
+- Incident response and management
+
+---
+
+## 📋 Assignment Structure
+
+The main assignment covers comprehensive enterprise IT infrastructure design:
+
+**10 Main Sections:**
+1. **Network Design** – Infrastructure architecture and planning
+2. **Hardware** – Selecting appropriate server, client, and network components
+3. **Organizational Units (OUs)** – Designing Active Directory structure
+4. **Groups** – Planning group management strategy
+5. **Users and Accounts** – Managing identities and access
+6. **Storage** – File storage, sharing, and protection
+7. **Policies** – Password and security policy implementation
+8. **Security** – Multi-layered security (physical, software, web)
+9. **Solution** – Integrating components into a coherent solution
+10. **Management** – Operational management and support
+
+**Assignment Resources:**
+- [docs/assignments/word-assignment/ASSIGNMENT_OUTLINE.md](docs/assignments/word-assignment/ASSIGNMENT_OUTLINE.md)
+- [docs/assignments/word-assignment/INDEX.md](docs/assignments/word-assignment/INDEX.md)
+- [docs/assignments/REFERENCES_AND_GUIDELINES.md](docs/assignments/REFERENCES_AND_GUIDELINES.md)
+
+---
+
+## 🎓 Study Methodology
+
+### The 5-Step Learning Process
+
+1. **Read & Understand**
+   - Study topic README and overview
+   - Review key concepts and definitions
+   - Read external resources and documentation
+
+2. **Take Notes**
+   - Create detailed notes using study-note-template.md
+   - Include examples and practical applications
+   - Document questions and areas needing deeper learning
+
+3. **Practice & Apply**
+   - Complete hands-on exercises and labs
+   - Implement concepts in virtual environments
+   - Test configurations and deployments
+
+4. **Review & Summarize**
+   - Create topic summary using topic-summary-template.md
+   - Review and consolidate learning
+   - Identify connections between topics
+
+5. **Document & Share**
+   - Add findings to assignment work
+   - Cross-reference related topics
+   - Keep documentation current and accurate
+
+---
+
+## 🛠️ Templates Available
+
+### Study Templates (`docs/templates/`)
+- **study-note-template.md** – Comprehensive notes on individual topics
+- **topic-summary-template.md** – Quick reference summaries
+- **README.md** – Complete template usage guide
+
+### Assignment Templates (`docs/assignments/templates/`)
+- **assignment-section-template.md** – For writing assignment sections
+- **research-template.md** – For deep research on specific topics
+
+**See [docs/templates/README.md](docs/templates/README.md) for detailed template guidance.**
+
+---
+
+## 🌍 Bilingual Structure
+
+This repository maintains **complete bilingual documentation** in English and Norwegian:
+
+| Aspect | English | Norwegian |
+|--------|---------|-----------|
+| Folder | `docs/` | `docs-nor/` |
+| Language | English | Norwegian (Bokmål) |
+| Structure | Identical | Identical |
+| Content | Same topics and assignments | Translated to Norwegian |
+
+**Switch languages:**
+- English: `cd docs && cat README.md`
+- Norwegian: `cd docs-nor && cat README.md`
+
+For detailed information, see [BILINGUAL_STRUCTURE.md](BILINGUAL_STRUCTURE.md)
+
+---
+
+## 📅 Time Management
+
+Study schedule and calendar information available in:
+- [timeplan/TIMEPLAN.md](timeplan/TIMEPLAN.md) – Detailed study schedule
+- [timeplan/Skjermbilde 2026-09-02 121529.png](timeplan/Skjermbilde 2026-09-02 121529.png) – Schedule screenshot
+
+---
+
+## 🔧 Local Applications & Tools
+
+The `apps-local/` folder contains supporting utilities and scripts:
+- Python automation scripts
+- Document generators
+- Testing tools and utilities
+- Helper applications
+
+See [apps-local/README.md](apps-local/README.md) for details.
+
+---
+
+## ✅ Best Practices
+
+### Content Quality
+- Write in clear, professional language
+- Explain technical terms and provide definitions
+- Include real-world examples and scenarios
+- Add diagrams, tables, or screenshots where helpful
+- Always cite authoritative sources
+
+### Organization
+- Use consistent heading hierarchy
+- Link related topics and concepts
+- Number sections and subsections clearly
+- Add cross-references and internal links
+- Maintain consistent formatting
+
+### Effective Learning
+- **Start small** – Begin with one topic before moving to others
+- **Take comprehensive notes** – Use templates provided
+- **Make connections** – Link related concepts across topics
+- **Practice consistently** – Apply concepts through exercises
+- **Review regularly** – Revisit notes to reinforce learning
+- **Update as you learn** – Keep documentation current
+
+### Contributing & Updating
+- Document your learning in organized notes
+- Reference sources and external materials
+- Link between related topics
+- Keep assignment work organized and cross-referenced
+- Review and update documentation regularly
+
+---
+
+## 📞 Getting Help
+
+### Within This Repository
+1. Check topic README files for overviews
+2. Review [docs/assignments/REFERENCES_AND_GUIDELINES.md](docs/assignments/REFERENCES_AND_GUIDELINES.md)
+3. See template README files: [docs/templates/README.md](docs/templates/README.md)
+4. Review bilingual structure: [BILINGUAL_STRUCTURE.md](BILINGUAL_STRUCTURE.md)
+
+### External Resources
+- Microsoft official documentation and learning paths
+- Linux man pages and documentation
+- Vendor-specific technical documentation
+- Industry best practices and standards
+
+---
+
+## 📝 File Navigation
+
+| File/Folder | Purpose |
+|-------------|---------|
+| [README.md](README.md) | This file - repository overview |
+| [BILINGUAL_STRUCTURE.md](BILINGUAL_STRUCTURE.md) | Bilingual setup and language info |
+| [.gitignore](.gitignore) | Git configuration for ignored files |
+| [docs/](docs/) | English documentation and study materials |
+| [docs-nor/](docs-nor/) | Norwegian documentation and study materials |
+| [timeplan/](timeplan/) | Study schedule and calendar |
+| [apps-local/](apps-local/) | Local applications and supporting tools |
+
+---
+
+## 📊 Repository Statistics
+
+- **7 Study Topics** – Comprehensive IT infrastructure coverage
+- **2 Languages** – English and Norwegian
+- **4 Template Types** – For different documentation needs
+- **10 Assignment Sections** – Enterprise IT infrastructure focus
+- **Bilingual Parity** – Identical structure and content in both languages
+
+---
+
+## 🔄 Regular Maintenance
+
+Keep this repository useful by:
+- Updating notes as you learn new information
+- Adding new resources and references
+- Improving documentation clarity
+- Fixing broken links and references
+- Organizing new materials consistently
+- Reviewing and consolidating related notes
+
+---
+
+## 📌 Key Reminders
+
+- ✅ Use templates for consistent documentation
+- ✅ Cross-reference between related topics
+- ✅ Keep both English and Norwegian versions current if bilingual
+- ✅ Document sources and citations
+- ✅ Review notes regularly for retention
+- ✅ Apply learning through practical exercises
+- ✅ Contribute to making this a comprehensive resource
+
+---
+
+**IT Study Repository** | Last Updated: 2026-09-02 | Languages: English, Norwegian (Bokmål) | Focus: IT Infrastructure & Security

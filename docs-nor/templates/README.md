@@ -1,53 +1,166 @@
-# Maleroversikt
+# Malerveiledning for studie
 
-Denne mappen inneholder gjenbrukbare maler for studienotater, oppsummeringer og generelt dokumentasjonsarbeid.
+Denne mappen inneholder gjenbrukbare maler for å hjelpe deg med å organisere og dokumentere læringen din på tvers av ulike IT-emner. Bruk disse som utgangspunkt for konsistent og høykvalitets dokumentasjon.
 
 ## Tilgjengelige maler
 
-### Studienotemal
+### 1. Studienotemal
 **Fil:** `study-note-template.md`
 
-**Bruk for:** Detaljerte studienotater om et spesifikt emne
+Bruk denne malen når du dokumenterer læringen din av et spesifikt IT-emne. Den gir en strukturert format for:
+- Emneoversikt og introduksjon
+- Nøkkelbegreper med definisjoner og betydning
+- Læringspunktoppsummering
+- Praktiske eksempler og scenarier
+- Hands-on øvelser og aktiviteter
+- Viktige notater og referansespørsmål
+- Relaterte emner og tverreferanser
 
-**Inkluderer:**
-- Nøkkelbegreper og definisjoner
-- Læringspunkter
-- Praktiske eksempler
-- Viktige notater og spørsmål
-- Relaterte emner
+**Best for:** Omfattende, detaljerte notater om individuelle emner som "Active Directory Grunnleggende" eller "Nettverksbytte"
 
-**Best for:** Grundig læring av individuelle emner
+**Bruksflyt:**
+1. Kopier `study-note-template.md` til emnemappen din
+2. Gi den nytt navn som beskriver emnet (f.eks. `Active-Directory-Grunnleggende.md`)
+3. Fyll inn hver del mens du lærer
+4. Lagre i den aktuelle emnemappen (f.eks. `../windows-server/`)
+5. Bruk som referanse og studieveiledning
 
 ---
 
-### Emneoppsummeringsmal
+### 2. Emneoppsummeringsmal
 **Fil:** `topic-summary-template.md`
 
-**Bruk for:** Rask oppsummeringer og oversikter
+Bruk denne malen til å lage en konsise oversikt over et emne. Kortere og mer fokusert enn studienotater:
+- "I et øyeblikk"-oppsummering (en setning)
+- Klar definisjon og forklaring
+- Hvorfor det betyr noe og betydning
+- Hovedkomponenter eller områder som dekkes
+- Nøkkelprinsipper og konsepter
+- Virkelige applikasjoner og brukstilfeller
+- Forbindelser til relaterte emner
+- Vanlige utfordringer og løsninger
+- Best practices og anbefalinger
+- Nøkkelbeskjed
 
-**Inkluderer:**
-- Definisjon og oversikt
-- Hovedkomponenter
-- Nøkkelprinsippper
-- Virkelige applikasjoner
-- Best practices
-- Nøkkeltakeaway
+**Best for:** Raskt referanseoppsummering, eksamensforberedelse og emneoversikter for gjennomgang
 
-**Best for:** Rask referanse og kondensert læring
+**Bruksflyt:**
+1. Kopier `topic-summary-template.md`
+2. Gi den navn som `Oppsummering-[EmneName].md`
+3. Fyll hver del med konsise, fokuserte informasjon
+4. Bruk for rask referanse og gjennomgang
 
 ---
 
-### Oppgaveavsnittmal
-**Fil:** (plassert i `docs-nor/assignments/templates/`)
+### 3. Oppgaveavsnittmal
+**Fil:** `../assignments/templates/assignment-section-template.md`
 
-**Bruk for:** Skriving av oppgaveavsnitt
+Designet spesifikt for hovedoppgaven innen IT-infrastruktur. Bruk når du skriver seksjoner med:
+- Seksjonsomvisning og formål
+- Nøkkelbegreper og teori
+- Detaljert beskrivelse og analyse
+- Implementeringstilnærming og trinn
+- Best practices og vurderinger
+- Eksempler og scenarier fra virkeligheten
+- Konfigurasjonsdetaljer og kommandoer
+- Feilsøking og vanlige problemer
+- Tverreferanser til relaterte seksjoner
 
-**Inkluderer:**
-- Nøkkelbegreper
-- Detaljerte beskrivelser
-- Implementeringsdetaljer
-- Best practices
-- Eksempelscenarier
+**Best for:** Skriving av oppgaveseksjoner om nettverksdesign, maskinvarevalg, Active Directory-oppsett, retningslinjer, sikkerhet osv.
+
+**Bruksflyt:**
+1. Naviger til `../assignments/templates/`
+2. Kopier `assignment-section-template.md`
+3. Gi det passende navn (f.eks. `1-Network-Design.md`)
+4. Følg strukturen for å dokumentere løsningen din
+5. Referér studiemateriale og best practices
+
+---
+
+### 4. Forskningsmalen
+**Fil:** `../assignments/templates/research-template.md`
+
+For dypgravende forskning på spesifikke teknologier, produkter eller tilnærminger:
+- Forskingsspørsmål og mål
+- Samlede funn fra kilder
+- Komparativ analyse av alternativer
+- Implementeringsanbefalinger
+- Vurdering av fordeler og ulemper
+- Kildedokumentasjon og siteringer
+- Konklusjoner og beslutninger
+
+**Best for:** Undersøking av spesifikke løsninger som "Windows Server vs Linux" eller "Enterprise Backup-løsninger"
+
+**Bruksflyt:**
+1. Naviger til `../assignments/templates/`
+2. Kopier `research-template.md`
+3. Gi det navn deskriptivt (f.eks. `Forskning-FileServerKomparering.md`)
+4. Dokumenter funnene dine fra flere kilder
+5. Bruk konklusjoner i oppgavebeslutninger
+
+---
+
+## Anbefalt arbeidsflyt
+
+### For emne læring
+```
+Emne forskning/studie
+    ↓
+Opprett studienotater (bruker Study Note Template)
+    ↓
+Gjennomgang og opprett oppsummering (bruker Topic Summary Template)
+    ↓
+Referanse i oppgavearbeid
+```
+
+### For oppgavearbeid
+```
+Oppgaveemne identifisert
+    ↓
+Forskning og undersøking (bruker Research Template)
+    ↓
+Skriv oppgavesektion (bruker Assignment Section Template)
+    ↓
+Koble til studiemateriale og andre seksjoner
+```
+
+---
+
+## Best practices
+
+### Innholdskvalitet
+- Skriv i klart, profesjonelt språk
+- Forklar alle tekniske termer eller gi definisjoner
+- Inkludér relevante, virkelige eksempler
+- Legg til diagrammer, tabeller eller skjermbilder hvor nyttig
+- Alltid siter kilder og offisiell dokumentasjon
+
+### Organisasjon
+- Bruk konsistent overskriftshierarki (H1, H2, H3)
+- Nummerer seksjoner og underordnede seksjoner klart
+- Inkludér korte seksjonsoppsummeringer
+- Legg til tverreferanser og interne lenker
+- Oppretthold konsistent formatering gjennom hele
+
+### Praktisk fokus
+- Inkludér trinn-for-trinn implementeringsprosedyrer
+- Gi faktiske konfigurasjonseksempler
+- Takl vanlige utfordringer og løsninger
+- Forklar beste industripraksiser
+- Vurder krav og sikkerhet på bedriftsskala
+
+### Referanser og siteringer
+- Lenk mellom relaterte seksjoner og dokumenter
+- Referér studiemateriale fra emnemapper
+- Siter offisiell dokumentasjon (Microsoft, Linux, osv.)
+- Inkludér weblenker med beskrivende tekst
+- Koble teori til praktisk implementering
+
+---
+
+## Kvalitetskontrollist
+
+Før du anser arbeide som fullført, verifisere:
 
 **Best for:** Strukturert oppgaveinnhold
 
