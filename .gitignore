@@ -1,0 +1,107 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+*.vsix
+
+# IDEs
+.idea/
+.project
+.pydevproject
+.settings/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+*.log
+
+# Dependencies
+node_modules/
+npm-debug.log
+
+# Build outputs
+out/
+dist/
+*.min.js
+*.min.css
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+.temp/
+temp/
+
+# Assignment working directories (local testing)
+docs/arbeidskrav-test-2/output/
+docs/arbeidskrav-test-3/output/
+docs/arbeidskrav-test-2/.venv/
+docs/arbeidskrav-test-3/.venv/
+
+# Generated files (keep structure, exclude outputs)
+*.docx
+*.xlsx
+*.pptx
+
+# OS and system files
+.DS_Store
+Thumbs.db
+.directory
+
+# Sensitive files
+*.key
+*.pem
+*.pfx
+*.p12
+secrets/
+.env
+.env.local
+
+# Editor backups
+*.orig
+*.backup
+
+# Exclude IDE cache files but keep .vscode settings
+.vscode/extensions/
+.vscode/workspaceStorage/
