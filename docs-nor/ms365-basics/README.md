@@ -40,6 +40,12 @@ Microsoft 365 er en omfattende skybasert abonnementstjeneste som kombinerer prod
 - Integrasjon mellom tjenester
 - Lisensiering og kostnadsoptimalisering
 
+## Studiemateriale
+
+- [Tjenestekart for Microsoft 365](study-service-map.md) - Forstå hvilken tjeneste som eier identitet, e-post, filer, samarbeid og enheter
+- [Laboratorium for sikkert samarbeid](secure-collaboration-lab.md) - Øv på valg av lagring, tillatelser og delingskoblinger
+- [Sjekkliste for grunnleggende administrasjon](admin-foundations-checklist.md) - Bruk en praktisk sjekkliste for identitet, sikkerhet, lisenser og drift
+
 ---
 
 Bruk malene i `docs-nor/templates/` til å dokumentere din læring i denne mappen.

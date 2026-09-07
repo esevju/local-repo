@@ -40,6 +40,12 @@ Microsoft 365 is a comprehensive cloud-based subscription service combining prod
 - Integration between services
 - Licensing and cost optimization
 
+## Learning Materials
+
+- [Microsoft 365 service map](study-service-map.md) - Understand which service owns identity, mail, files, collaboration, and devices
+- [Secure collaboration lab](secure-collaboration-lab.md) - Practice choosing storage, permissions, and sharing links
+- [Microsoft 365 administration foundations](admin-foundations-checklist.md) - Use a practical checklist for identity, security, licensing, and operations
+
 ---
 
 Use the templates in `docs/templates/` to document your learning in this folder.
